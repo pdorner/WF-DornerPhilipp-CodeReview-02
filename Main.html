@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CR-Philipp</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!––Header nav ––>
+    <header class="header">
+        <img id="logo" src="./img/logo.png" alt="CodeFactoryLogo">
+        <img id="LogoBannerPnG" src="./img/banner.png" alt="Bannerpng">
+    </header>
+    <nav class="navbar">
+        <ul class="item">
+            <li class="item-list"><a href="Main.html" alt="home">Home</a></li>
+            <li class="item-list"><a href="team.html" alt="aboutme">Team</a></li>
+        </ul>
+    </nav>
+    <!––Main with all middle elements ––>
+    <main>
+        <section id="mainSection">
+            <div id="heroimg">
+                <h1 id="title">Car insurance</h1>
+                <div id="box">
+                    <h1 id="boxTitle">Great coverage begins<br>with a custom quote</h1>
+                    <!––Flex Box ––>
+                    <div id="flexBox">
+                        <div class="flexitem">Your name:<br>
+                            <input id="yourName" type="Text" name="Name">
+                        </div>
+                        <div class="flexitem">Age:<br>
+                            <input type="number" name="Name" id="age">
+                        </div>
+                        <div class="flexitem">Contry:<br>
+                            <select id="select">
+                                <option value="Austria">Austria</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Greece">Greece</option>
+                            </select>
+                        </div>
+                        <div class="flexitem">Horsepower of your car:<br>
+                            <input type="number" name="Name" id="horse_power">
+                        </div>
+                    </div>
+                    <!Calculation ––>
+                    <div id="buttonDiv">
+                        <button id="button" type="Button" onclick="calc()">Calculate</button>
+                        <h2 id="calcFunction">Printed calculation goes here</h2>
+                    </div>
+                </div>
+            </div>
+            <!––GrayBox ––>
+            <div id="bodyDiv">
+                <div>
+                    <h2 id="bodytitle">Un-complicating car coverage<br>
+                        <h3 id="bodytitle2">Understanding your coverage options shouldn´t be so hard. <br>We´ll guide you through available coverage types,<br>starting with who and what is covered</h3>
+                    </h2>
+                </div>
+            </div>
+            <!Flex for the Lists ––>
+            <div id="boxes">
+                <div class="flexList">
+                    <div class="border">
+                        <h1>What comes standard</h1>
+                        <p>the coverage you need</p>
+                        <ul class="boxList">
+                            <li><span class="green">✔</span> Bodily Injury Liability</li>
+                            <li><span class="green">✔</span> Property Damage</li>
+                            <li><span class="green">✔</span> Medical Payments</li>
+                        </ul>
+                        <h4>Benefits</h4>
+                        <p class="colorBoxP">12-month rate guarantee | 24/7 customer<br>
+                            service | Lifetime Repair Guarantee</p>
+                    </div>
+                </div>
+                <div class="flexList">
+                    <div class="border">
+                        <h1>Add-on protection & coverage</h1>
+                        <p>For more peace of mind</p>
+                        <ul class ="boxList">
+                            <li><span class="green">✔</span> Better Car Replacement</li>
+                            <li><span class="green">✔</span> Towing & Labor</li>
+                            <li><span class="green">✔</span> Rental Car Coverage</li>
+                        </ul>
+                        <h4>Earned Benefits</h4>
+                        <p class="colorBoxP">Accident Forgiveness | New Car<br>
+                            Replacement <sup>TM</sup></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!Footer nav + Logo––>
+    <footer>
+        <nav class="navbar1">
+            <ul class="item1">
+                <li class="item-list1"><a href="Main.html " alt="main">Home</a></li>
+                <li class="item-list1"><a href="team.html " alt="team">Team</a></li>
+            </ul>
+        </nav>
+        <img id="LogoPnG1" src="./img/logo-inv.png" alt="cfLogo">
+        <p id="myName">Dorner Philipp-CodeFactory 2018</p>
+    </footer>
+    <!Script for js––>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,695 @@
+/* header*/
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cecece;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF3F3;
+    width: 100%;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 4em;
+    width: 25em;
+    height: 6em;
+}
+
+#LogoBannerPnG {
+    width: 50em;
+    height: 4.4em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+#title {
+    align-self: center;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-left: 40px;
+    background-color: #8E1616;
+    height: 30px;
+}
+
+ul.item {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.item-list {
+    display: inline-block;
+    padding-top: 7px;
+    width: 10%;
+    text-align: center;
+}
+
+.item-list:hover {
+    background-color: gray;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Main*/
+
+main #heroimg {
+    background-image: url("../img/traffic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40em;
+
+
+}
+
+
+#title {
+    margin-top: 0;
+    font-size: 2.5em;
+    padding-left: 0.7em;
+    padding-top: 1em;
+    color: white;
+
+}
+
+#box {
+    margin: 0 auto;
+    height: 39em;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 3px solid black;
+    width: 87%;
+
+
+
+}
+
+#mitarbeiter {
+    background-image: url("../img/traffic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45em;
+}
+
+#boxTitle {
+    font-size: 2.8em;
+    text-align: center;
+    padding-top: 1em;
+    line-height: 1.5em;
+    margin-top: 0;
+
+}
+
+/*flexBox imput*/
+#flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10em;
+    text-align: center;
+    margin-left: 20%;
+
+}
+
+.flexitem {
+
+    width: 50%;
+    height: 5em;
+    text-align: left;
+
+}
+
+input {
+    height: 2.5em;
+    width: 60%;
+    background-color: white;
+    border: 1px solid;
+}
+
+select {
+    height: 2.5em;
+    width: 60%;
+    background-color: white;
+    border: 1px solid;
+
+}
+
+#bodyDiv {
+    display: flex;
+    justify-content: center;
+    height: 20em;
+}
+
+#bodytitle {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 4em;
+}
+
+#bodytitle2 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 0;
+}
+
+#buttonDiv {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#button {
+    width: 20em;
+    height: 4em;
+    background-color: #339235;
+    border-radius: 20px;
+
+}
+
+#calcFunction {
+    font-size: 2em;
+    color: #339235;
+}
+
+#boxes {
+    display: flex;
+    justify-content: center;
+    height: 25em;
+    background-color: white;
+    width: 100%;
+}
+
+.flexList {
+    margin: 0 auto;
+    padding-top: 2em;
+    width: 40%;
+    height: 80%;
+
+}
+
+.border {
+    border-top: 3px solid black;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 10px 5px 5px black;
+
+    padding: 1em;
+
+}
+
+li {
+    list-style: none;
+}
+
+.green {
+    color: green;
+}
+
+.border h1 {
+    margin-bottom: 0;
+}
+
+.border p {
+    margin-top: 0.5em;
+}
+
+h4 {
+    font-weight: bold;
+    line-height: 0;
+
+}
+
+.colorBoxP {
+    color: gray;
+
+}
+
+/* Everything for my footer (navBar with Links, Logo on the right side, NameParagraph for bottom)*/
+footer {
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.navbar1 {
+    background-color: black;
+    height: 1.875em;
+    padding-left: 2.5em;
+}
+
+ul.item1 {
+    margin-top: 0;
+    padding: 0em;
+}
+
+.item-list1 {
+    display: inline-block;
+    padding-top: 0.45em;
+    width: 10%;
+    text-align: center;
+
+}
+
+.item-list1:hover {
+    background-color: gray;
+    padding-bottom: 0.32em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#LogoPnG1 {
+    float: right;
+    padding-right: 1.6em;
+    padding-top: 1.25em;
+    right: 1.6em;
+
+}
+
+#myName {
+    margin-top: 5em;
+    text-align: center;
+    margin-bottom: 0;
+
+
+}
+
+
+#flexBoxteam {
+    padding-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    height: 40em;
+    text-align: center;
+
+}
+
+#flexBoxteam p {
+    font-size: 2em;
+    background-color: white;
+    opacity: 0.7;
+    margin: 0 auto;
+
+}
+
+#flexTeam {
+    color: white;
+    width: 20em;
+    height: 15em;
+    display: inline;
+
+
+}
+
+.teamImg {
+    width: 20em;
+    height: 10em;
+}
+
+.teamImg:hover {
+    width: 22em;
+    height: 12em;
+}
+
+@media (max-width: 480px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #cecece;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        background-color: #FFF3F3;
+        width: 100%;
+        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #logo {
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 7em;
+        height: 4em;
+    }
+
+    #LogoBannerPnG {
+        width: 15em;
+        height: 4em;
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+
+    }
+
+    #title {
+        align-self: center;
+    }
+
+    .navbar {
+        margin-top: 0;
+        padding-left: 40px;
+        background-color: #8E1616;
+        height: 30px;
+    }
+
+    ul.item {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .item-list {
+        display: inline-block;
+        padding-top: 7px;
+        width: 20%;
+        text-align: center;
+    }
+
+    .item-list:hover {
+        background-color: gray;
+        padding-bottom: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /*Main*/
+
+    main #heroimg {
+        background-image: url("../img/traffic.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30em;
+
+
+    }
+
+
+    #title {
+        margin-top: 0;
+        font-size: 1.3em;
+        padding-left: 0.7em;
+        padding-top: 1em;
+        color: white;
+
+    }
+
+    #box {
+        margin: 0 auto;
+        height: 30em;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 3px solid black;
+        width: 87%;
+
+
+
+    }
+
+
+    #boxTitle {
+        font-size: 1em;
+        text-align: center;
+        padding-top: 1em;
+        line-height: 1.5em;
+        margin-top: 0;
+
+    }
+
+    /*flexBox imput*/
+    #flexBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 10em;
+        text-align: center;
+        margin-left: 20%;
+
+    }
+
+    .flexitem {
+
+        width: 50%;
+        height: 5em;
+        text-align: left;
+
+    }
+
+    input {
+        height: 1.5em;
+        width: 60%;
+        background-color: white;
+        border: 1px solid;
+    }
+
+    select {
+        height: 1.5em;
+        width: 60%;
+        background-color: white;
+        border: 1px solid;
+
+    }
+
+    #bodyDiv {
+        display: flex;
+        justify-content: center;
+        height: 14em;
+    }
+
+    #bodytitle {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 4em;
+    }
+
+    #bodytitle2 {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #buttonDiv {
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    #button {
+        width: 20em;
+        height: 4em;
+        background-color: #339235;
+        border-radius: 20px;
+
+    }
+
+    #calcFunction {
+        font-size: 1.6em;
+        color: #339235;
+    }
+
+    #boxes {
+        display: flex;
+        justify-content: center;
+        height: 25em;
+        background-color: white;
+        width: 100%;
+    }
+
+    .flexList {
+        margin: 0 auto;
+        padding-top: 2em;
+        width: 40%;
+        height: 80%;
+
+    }
+
+    .border {
+        border-top: 3px solid black;
+        border-left: 1px solid gray;
+        border-bottom: 1px solid gray;
+        border-right: 1px solid gray;
+        box-shadow: 10px 5px 5px black;
+        font-size: 0.9em;
+        padding: 1em;
+
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .green {
+        color: green;
+    }
+
+    .border h1 {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+
+    .border p {
+        font-size: 0.6;
+        margin-top: 0.5em;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 0;
+
+    }
+
+    .boxList {
+        font-size: 0.8em;
+    }
+
+    .colorBoxP {
+        color: gray;
+
+    }
+
+    /* Everything for my footer (navBar with Links, Logo on the right side, NameParagraph for bottom)*/
+    footer {
+        background-color: black;
+        color: white;
+        margin: 0 auto;
+
+    }
+
+    .navbar1 {
+        background-color: black;
+        height: 1.875em;
+        padding-left: 2.5em;
+    }
+
+    ul.item1 {
+        margin-top: 0;
+        padding: 0em;
+    }
+
+    .item-list1 {
+        display: inline-block;
+        padding-top: 0.45em;
+        width: 20%;
+        text-align: center;
+
+    }
+
+    .item-list1:hover {
+        background-color: gray;
+        padding-bottom: 0.32em;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #LogoPnG1 {
+        padding-right: 1.6em;
+        padding-top: 1.25em;
+        right: 1.6em;
+
+    }
+
+    #myName {
+        margin-top: 5em;
+        text-align: center;
+        margin-bottom: 0;
+
+
+    }
+
+    #mainSectionTeam {
+        background-image: url("../img/traffic.jpg");
+        height: 80em;
+
+    }
+
+    #mitarbeiter {
+        height: 80em;
+
+    }
+
+
+    #flexBoxteam {
+        padding-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+
+        text-align: center;
+
+    }
+
+    #flexBoxteam p {
+        font-size: 2em;
+        background-color: white;
+        opacity: 0.7;
+        margin: 0 auto;
+
+    }
+
+    #flexTeam {
+        color: white;
+        width: 20em;
+        height: 15em;
+        display: inline;
+
+
+    }
+
+    .teamImg {
+        width: 20em;
+        height: 10em;
+    }
+
+    .teamImg:hover {
+        width: 22em;
+        height: 12em;
+    }
+}
